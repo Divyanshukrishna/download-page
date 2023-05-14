@@ -15,7 +15,7 @@ body{
 }
 .content{
     position: fixed;
-    left: 20%;
+    left: 5%;
 }
 .title{
     font-size: 3rem;
@@ -35,7 +35,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     margin-bottom: 30px;
 }
-.download_btn{
+.download_btn_apk{
     border: none;
     background-color: rgb(255, 255, 218);
     color: #ffd438;
@@ -43,8 +43,16 @@ body{
     padding: 15px;
     font-family: 'Josefin Sans', sans-serif;
     cursor: pointer;
+    overflow: hidden;
 }
-#btn{
+.download_btn_marker{
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(218, 254, 255);
+    color: #38d4ff;
+    font-weight: 600;
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
     cursor: pointer;
 }
 img{
